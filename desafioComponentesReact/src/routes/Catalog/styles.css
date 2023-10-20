@@ -1,15 +1,15 @@
-#ct-catalog-section {
+#dsct-catalog-section {
     padding: 40px 0 ;
 }
-.ct-catalog-main {
+.cdsct-catalog-main {
     padding: o 10px;
 }
-.ct-catalog-cards-container {
+.dsct-catalog-cards-container {
 
 }
 
 @media (min-width: 576px) {
-    .ct-catalog-main {
+    .dsct-catalog-main {
         padding: 0 20px;
     }
 }

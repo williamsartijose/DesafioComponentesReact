@@ -1,25 +1,14 @@
-import './styles.css'
-import Header from '../../components/Header';
+import './styles.css';
+import Header from "../../components/Header";
+import Main from '../../components/Main';
 
 
-
-export default function Catalog () {
+export default function Catalog() {
     return (
         <>
-        <Header/>
-        <main>
-            <section id="ct-catalog-section">
-                <div className="ct-catalog-cards-container">
+            <Header />
+            <Main />
 
-                </div>
-
-
-                <div>
-
-
-                </div>
-            </section>
-        </main>
         </>
     );
 }
