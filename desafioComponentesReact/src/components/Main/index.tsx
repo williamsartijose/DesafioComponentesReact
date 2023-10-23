@@ -1,3 +1,4 @@
+import CardComment from '../CardComment';
 import Cardcar from '../Cardcar';
 import './styles.css';
 export default function Main() {
@@ -16,7 +17,12 @@ export default function Main() {
                         <div>
                             <h2>O que estão dizendo</h2>
                         </div>
-                    
+                      <CardComment/>
+                      <CardComment/>
+                      <CardComment/>
+                      <CardComment/>
+                      <CardComment/>
+                      <CardComment/>
                     </div>
                 </section>
             </main>
