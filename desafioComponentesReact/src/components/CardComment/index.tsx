@@ -1,10 +1,11 @@
-import './styles.css'
+import "./styles.css";
 export default function CardComment() {
-
-    return (
-        <div className="dsct-card-comment">
+  return (
+    <div className="dsct-card-comment">
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum
         voluptatem ad fugit id distinctio.
-      </div>
-    );
+      </p>
+    </div>
+  );
 }

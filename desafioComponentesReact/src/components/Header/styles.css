@@ -1,13 +1,24 @@
 header {
-    background-color: var(--dsct-color-bg-terciaty);
+    background-color: var(--dsct-color-bg-primary);
     height: 70px;
     display: flex;
     align-items: center;
+  }
+  
+  .nav-main {
+    color: var(--dsct-color-font-primary);
+    padding: 20px;
+    display: flex;
     text-align: center;
     justify-content: center;
-}
-
-header h1 {
-    color: var(--dsct-color-font-primary);
+  }
+  
+  .nav-main h1 {
     font-size: 20px;
-}
+  }
+  
+  @media (min-width: 1200px) {
+    .nav-main h1 {
+      font-size: 24px;
+    }
+  }
